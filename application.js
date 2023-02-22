@@ -17,7 +17,6 @@ System.register([], function (_export, _context) {
           _classCallCheck(this, Application);
 
           this.settingsPath = 'src/settings.json';
-          this.effectSettingsPath = 'src/effect.bin';
           this.showFPS = false;
         }
 
@@ -43,7 +42,6 @@ System.register([], function (_export, _context) {
             return cc.game.init({
               debugMode: false ? cc.DebugMode.INFO : cc.DebugMode.ERROR,
               settingsPath: this.settingsPath,
-              effectSettingsPath: this.effectSettingsPath,
               overrideSettings: {
                 // assets: {
                 //      preloadBundles: [{ bundle: 'main', version: 'xxx' }],
